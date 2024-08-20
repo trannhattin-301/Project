@@ -56,5 +56,10 @@ header .menu2 > li {
 .dropdown > li {
   padding: 10px;
   border-bottom: 1px solid darkblue;
+}
+.menu2 > li > ul {
   display: none;
+}
+.menu2 > li:hover > ul {
+  display: block;
 }
