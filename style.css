@@ -1,5 +1,10 @@
+/*chinh web ko còn khoảng trắng*/
+body {
+  margin: 0;
+}
 .header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .header > img {
@@ -21,4 +26,29 @@
   font-size: 20px;
   font-weight: 600;
   align-items: center;
+}
+header .menu2 > li > a {
+  text-decoration: none;
+  color: white;
+}
+header .menu2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 20px;
+}
+header .menu2 > li {
+  position: relative;
+}
+.dropdown {
+  position: absolute;
+  list-style: none;
+  width: 180px;
+  background-color: aqua;
+}
+.dropdown > li > a {
+  text-decoration: none;
 }
