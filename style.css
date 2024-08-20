@@ -24,7 +24,7 @@ body {
   display: flex;
   list-style: none;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
   align-items: center;
 }
 header .menu2 > li > a {
@@ -48,7 +48,13 @@ header .menu2 > li {
   list-style: none;
   width: 180px;
   background-color: aqua;
+  padding: 0;
 }
 .dropdown > li > a {
   text-decoration: none;
+}
+.dropdown > li {
+  padding: 10px;
+  border-bottom: 1px solid darkblue;
+  display: none;
 }
