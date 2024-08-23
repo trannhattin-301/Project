@@ -1,6 +1,7 @@
 /*chinh web ko còn khoảng trắng*/
 body {
   margin: 0;
+  padding: 0;
 }
 .header {
   display: flex;
@@ -40,26 +41,39 @@ header .menu2 {
   font-weight: bold;
   padding: 0 20px;
 }
+/*menu con cua menu2*/
 header .menu2 > li {
   position: relative;
 }
 .dropdown {
   position: absolute;
   list-style: none;
-  width: 180px;
-  background-color: aqua;
+  width: 250px;
+  background-color: white;
   padding: 0;
 }
 .dropdown > li > a {
   text-decoration: none;
+  font-size: 18px;
+  color: black;
 }
 .dropdown > li {
   padding: 10px;
-  border-bottom: 1px solid darkblue;
+  border-bottom: 1px black solid;
 }
 .menu2 > li > ul {
   display: none;
 }
 .menu2 > li:hover > ul {
   display: block;
+}
+/*nút quay lại đầu trang*/
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+  right: 20px;
+  font-size: 40px;
+  color: darkblue;
 }
