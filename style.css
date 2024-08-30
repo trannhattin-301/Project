@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .header {
   display: flex;
   align-items: center;
@@ -107,14 +108,25 @@ a {
 .left {
   width: 40%;
 }
-.right .related-news {
+.right {
   width: 60%;
   padding-left: 10px;
-  list-style: none;
 }
+
+.related-news{
+list-style-type: none;
+display: flex;
+}
+
+.related-news li{
+  width: 50%;
+}
+
 .news img {
   width: 100%;
 }
 .news {
   display: flex;
 }
+
+
